@@ -1,0 +1,28 @@
+# ── Credentials & config ──────────────────────────────────────────────────────
+credentials.json
+.env
+.env.*
+!.env.example
+
+# ── Data & outputs ─────────────────────────────────────────────────────────────
+*.csv
+*.xlsx
+*.xls
+*.json
+!credentials.example.json
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+*.egg-info/
+
+# ── IDEs ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
